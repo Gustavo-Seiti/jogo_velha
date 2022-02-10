@@ -2,10 +2,11 @@
 
 let x = document.querySelector(".x");
 let o = document.querySelector(".o");
-let boxes = document.querySelectorAll(".boxes");
+let boxes = document.querySelectorAll(".box");
 let buttons = document.querySelectorAll("btn_container button");
 let messageContainer = document.getElementById("message");
 let messageText = document.querySelector("#message p");
+let secondPlayer;
 
 // Contador de jogadas
 let player1 = 0;
@@ -25,7 +26,7 @@ for(let i = 0; i < boxes.length; i++){
             el = x;
         }
         else{
-            el = 0;
+            el = o;
         }
 
         if(this.childNodes.length == 0){
@@ -44,31 +45,17 @@ for(let i = 0; i < boxes.length; i++){
 }
 checkWin();
 
-function checkWin(){
-
-    let b1 = document.getElementById("block-1");
-    let b2 = document.querySelector("#block-2");
-    let b3 = document.getElementById("block-3");
-    let b4 = document.getElementById("block-4");
-    let b5 = document.getElementById("block-5");
-    let b6 = document.getElementById("block-6");
-    let b7 = document.getElementById("block-7");
-    let b8 = document.getElementById("block-8");
-    let b9 = document.getElementById("block-9");
-
-}
-
 function checkWin()
 {
-    let b1 = document.getElementById("block-1");
-    let b2 = document.querySelector("#block-2");
-    let b3 = document.getElementById("block-3");
-    let b4 = document.getElementById("block-4");
-    let b5 = document.getElementById("block-5");
-    let b6 = document.getElementById("block-6");
-    let b7 = document.getElementById("block-7");
-    let b8 = document.getElementById("block-8");
-    let b9 = document.getElementById("block-9");
+    let b1 = document.getElementById("block_1");
+    let b2 = document.querySelector("#block_2");
+    let b3 = document.getElementById("block_3");
+    let b4 = document.getElementById("block_4");
+    let b5 = document.getElementById("block_5");
+    let b6 = document.getElementById("block_6");
+    let b7 = document.getElementById("block_7");
+    let b8 = document.getElementById("block_8");
+    let b9 = document.getElementById("block_9");
 
         // primeira linha 
     if(b1.childNodes.length > 0 && b2.childNodes.length > 0 && b3.childNodes.length > 0){
@@ -180,8 +167,8 @@ function checkWin()
     }
     
     function declareWinner(winner){
-        let scoreboardX = document.getElementById("score-1");
-        let scoreboardY = document.getElementById("score-2");
+        let scoreboardX = document.getElementById("score_1");
+        let scoreboardY = document.getElementById("score_2");
     
         let msg = "";
     
