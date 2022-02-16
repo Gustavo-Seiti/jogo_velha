@@ -32,19 +32,19 @@ Nesse projeto utilizamos as seguintes tecnologias:
 
 Início do JOGO
 
-<img src="https://user-images.githubusercontent.com/78318961/154269580-e7207358-d716-46c1-be8a-4d8b117978dd.png">
+<img height = "200em" width = "200em" src="https://user-images.githubusercontent.com/78318961/154269580-e7207358-d716-46c1-be8a-4d8b117978dd.png">
 
 Vencedor Jogador 1
 
-<img src="https://user-images.githubusercontent.com/78318961/154269780-c728790d-57dd-4691-93e9-455ac058caef.png">
+<img height = "200em" width = "200em" src="https://user-images.githubusercontent.com/78318961/154269780-c728790d-57dd-4691-93e9-455ac058caef.png">
 
 Vencedor Jogador 2
 
-<img src="https://user-images.githubusercontent.com/78318961/154269881-57f044cc-36d8-428b-9edd-3abc4805c440.png">
+<img height = "200em" width = "200em" src="https://user-images.githubusercontent.com/78318961/154269881-57f044cc-36d8-428b-9edd-3abc4805c440.png">
 
 Velha
 
-<img src="https://user-images.githubusercontent.com/78318961/154270025-8133cc4f-9297-495b-a41b-1cf8cdfd91aa.png">
+<img height = "200em" width = "200em" src="https://user-images.githubusercontent.com/78318961/154270025-8133cc4f-9297-495b-a41b-1cf8cdfd91aa.png">
 
 ## Quer clonar esse repositório?
 
