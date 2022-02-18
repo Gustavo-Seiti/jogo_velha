@@ -8,6 +8,10 @@ Esse é o primeiro projeto executado no Curso de Javascript do Matheus Batisti.
 
 O jogo consiste em 2 jogadores, um com o X e outro com a Bola. Quando um dos jogadores vence a partida é apresetada a mensagem de vitória, marcado um ponto no placar e depois de alguns segundos se inicia outra partida.
 
+Se quiser acessar o game online, segue o link hospedado na Heroku:
+
+Endereço: https://game-of-old-woman.herokuapp.com/index.html
+
 
 ## Tecnologias
 
